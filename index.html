@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <link rel="shortcut icon" href="./imagens/icon.jpg" type="image/x-icon">
+	<head>
+		<title>Meu Portifólio</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f9f9f9;
+			}
+			header {
+				background-color: #343a40;
+				color: #ffffff;
+				padding: 30px;
+				text-align: center;
+				font-size: 30px;
+			}
+			nav {
+				background-color: #343a40;
+				color: #ffffff;
+				padding: 10px;
+				text-align: center;
+				font-size: 20px;
+			}
+			nav a {
+				color: #ffffff;
+				text-decoration: none;
+				padding: 10px;
+				margin: 10px;
+				display: inline-block;
+			}
+			nav a:hover {
+				background-color: #343a40;
+				color: #ffff00;
+				transition: 0.5s all;
+			}
+			.main {
+				background-image: url("https://images3.alphacoders.com/312/31277.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				/* min-height: 700px; */
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 20px;
+				text-align: center;
+				color: #ffffff;
+				font-size: 30px;
+                height: 300px;
+			}
+			.about {
+				background-color: #f9f9f9;
+				padding: 20px;
+				text-align: center;
+				color: #343a40;
+				font-size: 20px;
+				min-height: 400px;
+			}
+            .project {
+				background-color: #343a40;
+				padding: 20px;
+				text-align: center;
+				color: #f9f9f9;
+				font-size: 20px;
+				min-height: 400px;
+			}
+            .description {
+				background-color: #f9f9f9;
+				padding: 20px;
+				text-align: center;
+				color: #343a40;
+				font-size: 20px;
+				min-height: 400px;
+			}
+			.contact {
+				background-color: #343a40;
+				padding: 20px;
+				text-align: center;
+				color: #f9f9f9;
+				font-size: 20px;
+				min-height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			Meu Portifólio
+		</header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#about">Sobre</a>
+            <a href="#project">Projeto</a>
+			<a href="#contact">Contato</a>
+		</nav>
+		<div class="main">
+			<h1 style="text-shadow: 0.1em 0.1em 0.25em black;">Bem vindo ao meu portifólio</h1>
+		</div>
+		<div class="about" id="about">
+			<h2>Sobre mim</h2>
+            <br>
+			<h4 style="width: 40%; position: absolute; left: 160px; top: 595px; text-align: justify;"><p>Meu nome é Pedro Henrique Moraes, tenho 19 anos e recentemente completei meu ensino médio. Junto ao ensino médio, completei também um curso de desenvolvimento web, ambos na escola ETEC Prof Jadyr Salles em Porto Ferreira, SP.</p><p>Já trabalhei em diversos projetos pessoas e para terceiros, em que coloquei em prova minhas habilidades de trabalho em grupo, resolução de problemas, e meus conhecimentos em ferramentas como, JavaScript, HTML, CSS, PHP, MySQL, também trabalhei com a implementação de varias APIs como, Bootstrap, JQuery, Charts.Js, DataTables, Select2, etc.</p></p></h4>
+            <img src="./imagens/foto.png" style="height: 250px; position: absolute; left: 1020px; top: 620px; border-radius: 50%; border: 10px solid white; box-shadow: 0.2em 0.3em 3.4em 0.2em black;">
+        </div>
+        <div class="project" id="project">
+            <img src="./imagens/tcc.png" alt="Sou eu na esquerda, eu juro!" style="padding-top: 30px;">
+            <h4 style="text-align: justify; padding-left: 200px; padding-right: 199px;"><p>O projeto que mais exigiu das minhas competências, com certeza foi esse em que trabalhei para a Sistemax Sistemas, que é uma empresa de sistemas para gestão empresarial de Porto Ferreira, SP. O projeto foi realizado como meu TCC, no qual teria que, junto ao meu grupo de TCC, prestar serviço a uma empresa, e apresentar tudo o que foi feito.</p></h4>
+        </div>
+        <div class="description" id="description">
+            <h4 style="width: 43%; padding-top: 65px; text-align: justify; padding-left: 80px;"><p>No projeto fizemos um site para auxiliar no suporte dos clientes da Sistemax Sistemas, com o objetivo de ajudar na organização da empresa.</p><p>Utilizamos da identidade visual da própria empresa na confecção do site, usando as cores e a logo da Sistemax em vários lugares no site.</p></h4>
+            <img src="./imagens/login.png" style="height: 300px; position: absolute; left: 875px; top: 1475px;">
+            <h4 style="width: 43%; padding-top: 80px; text-align: justify; padding-left: 796px; padding-bottom: 70px;"><p>Dentro do site, os clientes enviam reclamações, avisos, duvidas, e afins para os administradores da empresa, que ficarão armazenados e aparecerão em forma de “bilhetes”.</p><p>Esses “bilhetes” são organizados por tópico, subtópico, e também por prioridade, os mesmos ficam armazenados em uma tabela integrada a um banco de dados, para que os administradores possam responde-las. Essa tabela contém várias ferramentas, como sistema de busca e de organização de diversas foras diferentes.</p></h4>
+            <img src="./imagens/home.png" style="height: 300px; position: absolute; left: 135px; top: 1790px;">
+        </div>
+		<div class="contact" id="contact">
+			<h2>Entre em contato</h2>
+			<p>Email: pphenriquemoraes@gmail.com</p>
+			<p>Telefone: 19 99427-7933</p>
+		</div>
+	</body>
+</html>
